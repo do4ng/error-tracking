@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2015",
+
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "lib": ["ESNext", "DOM"],
+
+    "types": ["node"],
+
+    "baseUrl": ".",
+
+    "paths": {
+      "~/*": ["./*"]
+    }
+  }
+}
